@@ -1,9 +1,9 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
+import styles from "./menuCategories.module.css";
 
 const MenuCategories = () => {
-  return (
-    <div>MenuCategories</div>
-  )
-}
+  return <div>MenuCategories</div>;
+};
 
-export default MenuCategories
+export default MenuCategories;
